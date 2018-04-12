@@ -3,8 +3,6 @@
 #include <stdio.h>	
 #include<math.h>		
 
-//pthread_t *Students[100];
-
 pthread_t *Students;		
 pthread_t TA;		
 
