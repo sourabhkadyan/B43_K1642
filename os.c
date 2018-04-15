@@ -31,7 +31,7 @@ void *Student_Activity(void *threadID)
 		sem_post(&TA_Sleep);
 
 		else
-			printf("Student %ld sat on a chair waiting for the TA to finish. \n", (long)threadID);
+			printf("Student %d sat on a chair waiting for the TA to finish. \n", (long)threadID);
 		
 		
 		pthread_mutex_lock(&ChairAccess);
